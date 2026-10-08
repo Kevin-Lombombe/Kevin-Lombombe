@@ -1,6 +1,6 @@
 # Hi, I'm Kevin 👋
 
-I'm an IT Network Management student at IIE Rosebank College in Johannesburg, South Africa, with expected graduation in June 2027.
+I'm an IT Network Management student at Rosebank International in Johannesburg, South Africa, with expected graduation in June 2027.
 
 I'm developing practical skills in networking, Linux administration, Windows Server and cloud infrastructure. My goal is to begin a career in IT support, networking or cloud support.
 
