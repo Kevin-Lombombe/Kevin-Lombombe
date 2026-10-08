@@ -49,7 +49,7 @@ The uploaded source attachments have been preserved. The Word coursework report 
 
 ## Known limitations
 
-- The image folder and `tour.mp4` were not supplied. Media will remain missing until the original assets are added.
+- All referenced images have been supplied and added. `tour.mp4` is still missing, so the virtual tour cannot play.
 - `action_page.php` is referenced but was not supplied; search has no working backend.
 - The original JavaScript references missing elements and undefined variables, and includes conflicting validation functions. Interactions need repair and browser testing.
 - Contact markup uses `form1` rather than a standard form. Booking, comments and newsletter delivery are not implemented or verified.
@@ -59,7 +59,7 @@ The uploaded source attachments have been preserved. The Word coursework report 
 
 ## Next improvements
 
-1. Restore the media listed in `pictures/README.md` and record asset credits.
+1. Add `pictures/tour.mp4` and record image and video credits.
 2. Correct HTML structure and rebuild form validation using existing field IDs.
 3. Make prototype submissions clearly indicate that no enquiry is sent.
 4. Test navigation, browser console errors, keyboard access and mobile layout.
