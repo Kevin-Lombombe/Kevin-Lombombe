@@ -14,13 +14,18 @@ These skills come from coursework and lab practice.
 | Linux | CentOS, Bash, permissions, user and group administration, process management and monitoring |
 | Windows Server | Windows Server 2022, Active Directory Domain Services, DNS and DHCP |
 | Virtualization | Hyper-V, virtual machines and virtual switches |
+| Web development | HTML, CSS and JavaScript coursework | 
 | Scripting and databases | Bash, PowerShell and SQL fundamentals |
 | Network security | Firewall concepts, segmentation, access control and wireless security |
 | Documentation | Network diagrams, setup guides and troubleshooting notes |
 
 ## Projects and coursework
 
-Project files and screenshots will be added as I prepare and verify them for publication.
+[**Drill Motors Website — View project**](projects/drill-motors/README.md)
+
+WEDE5020 coursework using HTML, CSS and JavaScript. Includes five pages, source code, local setup instructions and documented limitations. Missing media and interaction repairs are tracked in the project README.
+
+Further project files and screenshots will be added as I prepare and verify them for publication.
 
 - **Linux System Monitoring Tool:** A CentOS practice project focused on collecting system performance information and developing custom monitoring services. In progress.
 - **Library & Multimedia Technologies Center:** A network design coursework project covering two sites, departmental VLANs, IP addressing, network services and security.
