@@ -23,7 +23,7 @@ These skills come from coursework and lab practice.
 
 [**Drill Motors Website — View project**](projects/drill-motors/README.md)
 
-WEDE5020 coursework using HTML, CSS and JavaScript. Includes five pages, source code, local setup instructions and documented limitations. Vehicle images are included; the missing tour video and interaction repairs are tracked in the project README.
+WEDE5020 coursework using HTML, CSS and JavaScript. Includes five pages, source code, local setup instructions and documented limitations. Vehicle images are included; the tour placeholder and interaction repairs are documented in the project README.
 
 Further project files and screenshots will be added as I prepare and verify them for publication.
 
