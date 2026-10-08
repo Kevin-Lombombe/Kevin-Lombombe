@@ -42,6 +42,7 @@ Open http://localhost:8000/Homepage.html in a browser. No database or build step
 
 - Replaced absolute Windows media paths with relative `pictures/` references.
 - Corrected stylesheet references to match `poeStyle.css` on case-sensitive systems.
+- Replaced contact phone numbers and email addresses with demo details and removed the ID-number field.
 - Added setup instructions and an honest record of remaining work.
 
 The uploaded source attachments have been preserved. The Word coursework report was reviewed to establish context; it is not included in this public source folder.
