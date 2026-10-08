@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Explore a wide range of car products from Drill Motors including Honda, VW, Mercedes, Lamborghini, Ferrari, Range Rover, and Renault models.">
+        <meta name="keywords" content="Drill Motors, cars, Honda, VW, Mercedes, Lamborghini, Ferrari, Range Rover, Renault, car products, car deals">
+        <title>Drill Motors - Products</title>
+        <link rel="stylesheet" href="poeStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+        <body>
+            <header>
+            <nav>
+            <ul>    
+            <a href="Homepage.html"target="_blank"><font style="color:white">Home</font></a>
+            <a href="About us.html"target="_blank"><font style="color:white">About us</font></a>
+            <a href="Products.html"target="_blank"><font style="color:white">Products</font></a>
+            <a href="Deals.html"target="_blank"><font style="color:white">Deals</font></a>
+            <a href="Contact.html"target="_blank"><font style="color:white">Contact us</font></br></a>
+            </ul>
+            </nav>
+            </header>
+
+            <main>
+             <h1>PRODUCTS</h1>
+             <section>
+             <a href="Homepage.html"target="_blank"><img src="pictures/cQMCzqRPR622xW2iJv_Etg.jpeg"align="right"width="100"height="170"/></a>
+             <div class="topnav"><h3><b>Drill motors. In us we trust</b></h3>
+                <input type="text" placeholder="Search..">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">               
+                <form class="example" action="action_page.php">
+                <button type="submit" class="search"></button>
+                </form>
+             </div>
+            </section>
+
+            <section>
+            <h4>Honda</h4>
+                <img src="pictures/honda.jpeg"width="300"height="200"/>
+                <img src="pictures/honda2.jpg"width="300"height="200"/></br></h4>
+                <hr color="black" width="100%">
+            </section>
+
+            <section>
+                <h4>VW</h4>
+                <img src="pictures/images (1).jpeg"width="250"height="200"/>
+                <img src="pictures/vw.jpg"width="300"height="200"/>
+                <img src="pictures/vw2.jpg"width="300"height="200"/>
+                <img src="pictures/vw3.jpg"width="250"height="200"/></br></h4>
+                <hr color="black" width="100%">
+            </section>
+
+            <section>
+                <h4><br>Mercedes</br></h4>
+                <img src="pictures/bens2.jpg"width="300"height="200"/>
+                <img src="pictures/bens3.jpeg"width="300"height="200"/>
+                <img src="pictures/benz.jpg"width="200"height="200"/></br></h4>
+                <hr color="black" width="100%">
+            </section>
+
+            <section>
+                <h4><br>Lamborghini</br></h4>
+                <img src="pictures/lambo.jpg"width="200"height="200"/></br></h4>
+                <hr color="black" width="100%">
+                <h4><br>Ferrari</br></h4>
+            </section>
+
+            <section>
+                <img src="pictures/ferrari.jpg"width="200"height="200"/></br></h4>
+                <hr color="black" width="100%">
+            </section>
+
+            <section>
+                <h4><br>Range Rover</br></h4>
+                <img src="pictures/range.jpg"width="250"height="200"/></br></h4>
+                <hr color="black" width="100%">
+            </section>
+
+            <section>
+                <h4><br>Renault</br></h4>
+                <img src="pictures/renault.jpg"width="300"height="200"/>
+                <img src="pictures/renault2.jpg"width="300"height="200"/></br></h4>      
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+        <footer>   
+            <form>
+            <h2>Opening Times</h2>
+            <p>Mon-Thu:  8:30am
+            <br>Fri:      8:00am
+            <br>Sat:      9:00am
+            <br>Sun:      Closed</p>
+
+            <h2>Closing Times</h2>
+            <p>Mon-Thu:  5:30pm
+            <br>Fri:      7:30pm
+            <br>Sat:      6:00pm</p>
+            </form>
+            <hr>
+
+            <p id="dateStamp"></p>
+                <script>
+                    function displayDateStamp() {
+                        const now = new Date();
+                        const options = {
+                            weekday: 'long',
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric',
+                            hour: '2-digit',
+                            minute: '2-digit',
+                            second: '2-digit'
+                        };
+                        const dateString = now.toLocaleDateString('en-US', options);
+                        document.getElementById('dateStamp').textContent = dateString;
+                    }
+                
+                    displayDateStamp();
+                </script>
+            <p>&copy; 2024 Drills Motors. All rights reseved.</p> 
+        </footer>
+        </body>
+        <script src="poescript.js"></script> <!-- Link to external JS -->
+    </head>
+</html>
