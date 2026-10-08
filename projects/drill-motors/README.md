@@ -11,7 +11,7 @@ Practice building a business website with HTML, CSS and JavaScript: navigation, 
 | File | Purpose |
 | --- | --- |
 | Homepage.html | Business introduction and newsletter interface |
-| About us.html | Business history, sample reviews and video reference |
+| About us.html | Business history, sample reviews and virtual tour placeholder |
 | Products.html | Vehicle brand catalogue |
 | Deals.html | Promotional offers |
 | Contact.html | Contact details and enquiry interface |
@@ -43,13 +43,14 @@ Open http://localhost:8000/Homepage.html in a browser. No database or build step
 - Replaced absolute Windows media paths with relative `pictures/` references.
 - Corrected stylesheet references to match `poeStyle.css` on case-sensitive systems.
 - Replaced contact phone numbers and email addresses with demo details and removed the ID-number field.
+- Replaced the unavailable tour video player with a text placeholder.
 - Added setup instructions and an honest record of remaining work.
 
 The uploaded source attachments have been preserved. The Word coursework report was reviewed to establish context; it is not included in this public source folder.
 
 ## Known limitations
 
-- All referenced images have been supplied and added. `tour.mp4` is still missing, so the virtual tour cannot play.
+- All referenced images are included. The original tour video was lost; the broken player has been replaced with “Virtual tour coming soon.”
 - `action_page.php` is referenced but was not supplied; search has no working backend.
 - The original JavaScript references missing elements and undefined variables, and includes conflicting validation functions. Interactions need repair and browser testing.
 - Contact markup uses `form1` rather than a standard form. Booking, comments and newsletter delivery are not implemented or verified.
@@ -59,7 +60,7 @@ The uploaded source attachments have been preserved. The Word coursework report 
 
 ## Next improvements
 
-1. Add `pictures/tour.mp4` and record image and video credits.
+1. Record image credits; optionally create a replacement virtual tour.
 2. Correct HTML structure and rebuild form validation using existing field IDs.
 3. Make prototype submissions clearly indicate that no enquiry is sent.
 4. Test navigation, browser console errors, keyboard access and mobile layout.
